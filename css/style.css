@@ -32,7 +32,7 @@ body a:hover{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:900px;
+	min-height:700px;
 }
 .banner_top {
     margin: 2em 0 3em;
@@ -179,7 +179,9 @@ body a:hover{
 	}
 }
 .navbar-nav {
-	margin-left: 10em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 620px;
 }
 .navbar-default .navbar-nav > li > a {
     font-size: 1.3em;
@@ -1740,7 +1742,7 @@ ul.wmuSliderPagination {
 		margin: 6em 0 4em;
 	}
 	.banner {
-		min-height: 770px;
+		min-height: 700px;
 	}
 	.banner-bottom-position-grid-left-pos {
 		right: -70%;
@@ -1888,7 +1890,7 @@ ul.wmuSliderPagination {
 		font-size: 1.1em;
 	}
 	.banner {
-		min-height: 645px;
+		min-height: 550px;
 	}
 	.banner-bottom-position-grid {
 		float: left;
@@ -2131,7 +2133,7 @@ ul.wmuSliderPagination {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
-		min-height: 525px;
+		min-height: 450px;
 	}
 	.banner-bottom-position-gridr p {
 		margin: 6em 0 0;
