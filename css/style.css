@@ -32,7 +32,11 @@ body a:hover{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
+	background-position: center center;
 	min-height:700px;
+}
+.reviews .banner {
+	min-height: 200px;
 }
 .banner_top {
     margin: 2em 0 3em;
@@ -1764,6 +1768,7 @@ ul.wmuSliderPagination {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
+		background-position: center center;
 	}
 }
 @media (max-width:1024px){
@@ -1806,6 +1811,7 @@ ul.wmuSliderPagination {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
+		background-position: center center;
 	}
 	figure.effect-julia img {
 		max-width: 100%;
@@ -1891,6 +1897,9 @@ ul.wmuSliderPagination {
 	}
 	.banner {
 		min-height: 550px;
+	}
+	.reviews .banner {
+		min-height: 200px;
 	}
 	.banner-bottom-position-grid {
 		float: left;
@@ -2102,6 +2111,7 @@ ul.wmuSliderPagination {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
+		background-position: center center;
 	}
 }
 @media (max-width: 640px){
@@ -2133,6 +2143,7 @@ ul.wmuSliderPagination {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
+		background-position: center center;
 		min-height: 450px;
 	}
 	.banner-bottom-position-gridr p {
@@ -2302,6 +2313,7 @@ ul.wmuSliderPagination {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
+		background-position: center center;
 		min-height: 505px;
 	}
 	.banner-bottom, .banner-bottom-position, .slider, .sevices-list, .featured-services, .contact, .typo, .portfolio, .blog, .single, .about, .features {
@@ -2597,6 +2609,7 @@ ul.wmuSliderPagination {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
+		background-position: center center;
 		min-height: 460px;
 	}
 	.social_icons {
@@ -2776,4 +2789,12 @@ ul.wmuSliderPagination {
 	.testimonials-grid1 h4 {
 		font-size: 1.1em;
 	}
+}
+
+.video-title {
+	text-align: center;
+}
+
+.top-buffer {
+	margin-top: 40px;
 }
